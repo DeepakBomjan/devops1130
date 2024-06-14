@@ -9,3 +9,7 @@ git add filename
 git commit -m "commit message"
 ```
 > Note: Please follow conventinal commit 
+# To merge changes from branch
+```bash
+git merge branch_to_merge branch_being_merge
+```
