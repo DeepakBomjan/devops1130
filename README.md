@@ -1,15 +1,18 @@
-## This is a sample devops repository
-## Create git empty repository
-git init 
-# To add file
-git add filename
+# Next Markdown Blog
 
-# To commit
+Simple static blog using markdown and Next.js
+
+[DEMO](https://next-markdown-blog-drab.vercel.app/)
+
+## Usage
+
 ```bash
-git commit -m "commit message"
-```
-> Note: Please follow conventinal commit 
-# To merge changes from branch
-```bash
-git merge branch_to_merge branch_being_merge
+# Install dependencies
+npm install
+
+# Run dev server
+npm run dev
+
+# Build for prod and export static website
+npm run build
 ```
